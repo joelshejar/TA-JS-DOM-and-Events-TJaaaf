@@ -10,7 +10,7 @@ function generateRandomNumber()
 }
 
 
-for(i = 0; i <= 500; i++){
+for(i = 0; i < 500; i++){
     var div = document.createElement("div");
         div.className = "box"
         document.querySelector("#container").appendChild(div);
