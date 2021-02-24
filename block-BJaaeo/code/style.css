@@ -1,0 +1,79 @@
+.container{
+    
+    width: 400px;
+    margin: auto;
+    
+  }
+  .container-one{
+      display: flex;
+
+  }
+  .equal{
+      display: flex;
+      flex-direction:  column;
+  }
+  .operator{
+      background-color: rgb(113,33,51);
+      color: white;
+  }
+  .equal-to{
+      background-color: rgb(31,128,128);
+  }
+  
+  .display{
+    width: 100%;
+    background-color: black;
+    color: white;
+    height: 50px;
+    border: 3px solid #ffffff;
+    border-radius: 12px;
+    display: flex;
+    justify-content: flex-end;
+    font-size: 48px;
+  }
+  
+  .buttons{
+    display: flex;
+    width: 75%;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex: 0 1 75%;
+  }
+  
+  button {
+    flex:1 29%;
+    padding: 10px;
+    font-size: 1.5em;
+    border-radius: 8px;
+    border: 3px solid white;
+  }
+  .equal{
+      flex: 0 1 25%;
+  }
+  .division{
+      height: 20%;
+  }
+  
+
+  button:active {
+    background:  rgb(191, 191, 209);
+  }
+  button:focus{
+      outline: none;
+  }
+  .equal-to:active{
+      background-color: rgb(120, 199, 199);
+  }
+  .operator:active{
+    background-color: rgb(190, 138, 149);
+}
+.reset{
+    background-color: rgb(61,27,16);
+}
+.reset:active{
+    background-color: rgb(158, 113, 98);
+}
+
+
+
+
