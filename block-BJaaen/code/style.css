@@ -1,0 +1,63 @@
+body{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.far{
+    margin-right: 2.5rem;
+    font-size: 2rem;
+    color: rgb(34,142,250);
+    cursor: pointer;
+}
+.header{
+    background-color: rgb(34,142,250);
+}
+h1{
+    padding: 1rem;
+    border: 0;
+    color: white;
+}
+.container{
+    border-radius: 8px;
+    box-shadow: 3px 3px 3px 3px gray;
+    height: 550px;
+    width: 400px;
+}
+.computer-section{
+    padding: 2rem;
+}
+.human-section{
+    padding: 2rem;
+}
+.reset{
+    padding: 2rem;
+}
+.fas{
+    font-size: 2rem;
+    cursor: pointer;
+}
+.sp{
+    margin-left:  2rem;
+    font-size: 2rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
