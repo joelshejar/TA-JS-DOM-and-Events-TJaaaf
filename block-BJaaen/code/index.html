@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Rock Paper and Scissors</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.15.2/css/all.css" integrity="sha384-vSIIfh2YWi9wW0r9iZe7RJPrKwp6bG+s9QZMoITbCckVJqGCCRhc+ccxNcdpHuYu" crossorigin="anonymous">
+  </head>
+  <body>
+    <div class="container">
+      <div class="header">
+        <h1>Rock Paper Scissors</h1>
+      </div>
+      <div class="human-section">
+        <h2 class="comp">You - <span id="human-score"></span> <span id="human-choice" class="choice"></span> </h2>
+        <div> <i class="far fa-hand-rock human" id="human-rock" data-set="Rock"></i><i class="far fa-hand-paper human" id="human-paper" data-set="Paper"></i><i class="far fa-hand-scissors human" id="human-scissors" data-set="Scissors"></i>
+        </div>
+      </div>
+      <div class="computer-section">
+        <h2 class="hum">Computer - <span id="computer-score"></span> <span id="computer-choice" class="choice"></span> </h2>
+        <div>
+          <i class="far fa-hand-rock" id="computer-rock"></i><i class="far fa-hand-paper" id="computer-paper"></i><i class="far fa-hand-scissors" id="computer-scissors"></i>
+        </div>
+      </div>
+      <div class="reset">
+        <i class="fas fa-sync"></i><span class="sp"></span>
+      </div>
+    </div>
+    <script src="confetti.js"></script>
+    <script src="./script.js"></script>
+    
+  </body>
+</html>
+
+
+
+
+
+
