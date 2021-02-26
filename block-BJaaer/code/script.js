@@ -18,20 +18,17 @@ modal.append(h1, email, gender, color, range, drone, checked)
 
 let handleSubmit = (event) =>{
     event.preventDefault()
-    userInfo.name = form.elements.text.value
+    userInfo.name = form.elements.name.value
     userInfo.email = form.elements.email.value
     userInfo.gender = form.elements.gender.value
     userInfo.color = form.elements.color.value
     userInfo.terms = form.elements.terms.checked
     userInfo.range = form.elements.range.value
     userInfo.drone = form.elements.drone.value
-    modal.style.display = "block"
-} 
-form.addEventListener("submit", handleSubmit)
-console.log(userInfo)
 
-console.log(`hello ${userInfo.name}`)
-h1.innerText = `Hello ${userInfo.name}`
+
+    h1.innerText = `Hello ${userInfo.name}`
+console.log(userInfo.name)
 
 email.innerText = `Email: ${userInfo.email}`
 
@@ -44,11 +41,14 @@ if(userInfo.checked === true){
 }else{
     checked.innerText = `You don't agree to terms and conditions`
 }
-window.onclick = function(event) {
-    if (event.target == modal) {
-      modal.style.display = "none";
-    }
-  }
+    
+} 
+form.addEventListener("submit", handleSubmit)
+console.log(userInfo)
+
+console.log(`hello ${userInfo.name}`)
+
+
 
 
 
