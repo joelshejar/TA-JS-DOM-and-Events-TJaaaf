@@ -1,0 +1,100 @@
+/* CSS Reset */
+
+html {
+  box-sizing: border-box;
+  font-size: 16px;
+  background-color: salmon;
+}
+
+*,
+*:before,
+*:after {
+  box-sizing: inherit;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+ol,
+ul {
+  margin: 0;
+  padding: 0;
+  font-weight: normal;
+}
+
+ol,
+ul {
+  list-style: none;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+}
+form{
+  height: 500px;
+  width: 400px;
+  margin: 2rem 400px;
+  display: flex;
+  flex-direction: column;
+}
+.container1{
+  max-width: 400px;
+  width: 100%;
+  margin:0 auto;
+}
+input{
+  display: block;
+  width: 100%;
+  padding: 0.5rem 1rem ;
+  font-size: 1.1rem;
+  border: none;
+  box-shadow: 5px 0px 10px rgba(0, 0,  0.9);
+  outline: none;
+  background-color: rgb(244, 245, 248);
+  border-radius: 0.25rem;
+  margin-bottom: 1rem;
+  margin-top: 0.5rem;
+}
+label{
+  font-weight: 550;
+}
+
+input[type = submit]{
+  display: block;
+  width: 100%;
+  font-weight: 600;
+}
+input[type = submit]:hover {
+  background-color: black;
+  color: white;
+}
+h1{
+  text-align: center;
+  margin-top: 3rem;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
