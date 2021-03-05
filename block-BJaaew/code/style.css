@@ -1,0 +1,153 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen,
+    Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: block;
+}
+body {
+	line-height: 1;
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+table {
+	border-collapse: collapse;
+	border-spacing: 0;
+}
+.header{
+  text-align: center;
+  padding: 3rem 0;
+  background-image: linear-gradient(90deg, #130e6d 0%, #37378f 35%, #00d4ff 100%);
+}
+.header h1{
+  font-size: 1.9rem;
+  margin-bottom: 1.6rem;
+  color: white;
+  font-weight: 600;
+}
+.header input{
+  border: 0;
+  border-radius: 3px;
+  padding: 0.8rem;
+  background-color: rgb(209, 228, 228);
+}
+.header input ::placeholder{
+  color: rgb(221, 217, 217);
+}
+.ul{
+  display: flex;
+  justify-content: space-around;
+}
+
+.section-one{
+  margin-top: 1.2rem;
+  margin-bottom: 2.5rem;
+}
+
+.ul button{
+  background-color: black;
+  color: white;
+  border: none;
+  padding: 0.3rem;
+  border-radius: 3px;
+  cursor: pointer;
+}
+.ul button:hover{
+  background-color: rgb(218, 211, 211);
+  color: black;
+}
+div{
+  flex: 0 1 30%;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 0.8rem ;
+  margin-bottom: 0.9rem;
+  background-image: linear-gradient(90deg, #b4b2e0 0%, #a5a5c9 35%, #94e5f5 100%);
+}
+.got-names{
+  margin: 1rem 2rem;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+img{
+  height: 90px;
+  width: 90px;
+  border-radius: 50%;
+  margin-bottom: 10px;
+}
+h2{
+  margin-bottom: 1rem;
+  font-weight: 700;
+  font-size: 1.2rem;
+}
+p{
+  font-size: 0.9rem;
+  margin-bottom: 1rem;
+}
+a{
+  padding: 0.2rem 0.6rem;
+  background-color: black;
+  text-decoration: none;
+  color: white;
+  border-radius: 3px;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
